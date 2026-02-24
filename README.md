@@ -1,8 +1,8 @@
 # 💫 Hi there!
 
 My name is Roman Claudiu and I go by the alias "ClaW".
-Yes, from the game.
-![enter image description here](https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Claw_Coverart.png/250px-Claw_Coverart.png)
+Yes, from the [game](https://en.wikipedia.org/wiki/Claw_(video_game)).
+
 
 I'm a Full Stack Software Engineer based in Romania 🇷🇴.
 Currently building projects alongside fellow rebels at [RebelDot](https://www.linkedin.com/company/therebeldot/).
