@@ -17,6 +17,7 @@ I work mainly with:
 - ▲ Next.js
 - 🐱 NestJS
 - TypeScript
+- 🐍 Python
 - and various tools across their ecosystems
 
 I enjoy building scalable systems, clean APIs, and thoughtful user interfaces.  
