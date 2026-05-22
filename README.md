@@ -13,8 +13,8 @@ Currently building projects alongside fellow rebels at [RebelDot](https://www.li
 
 I work mainly with:
 
-- ⚛️ React
 - ▲ Next.js
+- ⚛️ React
 - 🐱 NestJS
 - TypeScript
 - 🐍 Python
