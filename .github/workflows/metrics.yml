@@ -1,0 +1,46 @@
+name: GitHub metrics
+
+# Renders assets/metrics.svg (light) and assets/metrics-dark.svg (dark) and
+# commits them, so the README does not depend on a third-party stats service.
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # GITHUB_TOKEN is enough for public activity. A METRICS_TOKEN secret
+      # (classic PAT, public_repo scope) would also count private contributions.
+      - name: Generate metrics (light)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: RClaudiuM
+          filename: assets/metrics.svg
+          template: classic
+          config_timezone: Europe/Bucharest
+          config_display: large
+          base: header, activity, community, metadata
+          config_theme: light
+
+      - name: Generate metrics (dark)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: RClaudiuM
+          filename: assets/metrics-dark.svg
+          template: classic
+          config_timezone: Europe/Bucharest
+          config_display: large
+          base: header, activity, community, metadata
+          config_theme: dark
