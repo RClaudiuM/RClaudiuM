@@ -8,6 +8,20 @@ I spent years shipping web platforms end to end, and these days I also build the
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/metrics.svg" />
+  <img src="./assets/metrics.svg" alt="GitHub activity stats" width="100%" />
+</picture>
+
+</div>
+
+---
+
 ## 🧠 What I Do
 
 **Product engineering**
@@ -97,30 +111,32 @@ I care about **code clarity**, **structure**, and **long-term maintainability**,
 
 ---
 
-## 🌱 Open Source
+## 🚀 What Drives Me
 
-I like fixing the bugs I run into upstream instead of working around them.
-Some projects I've had changes merged into:
-[bulletproof-react](https://github.com/alan2207/bulletproof-react),
-[react-native-paper](https://github.com/callstack/react-native-paper),
-[knip](https://github.com/webpro-nl/knip),
-[typia](https://github.com/samchon/typia),
-[golevelup/nestjs](https://github.com/golevelup/nestjs),
-[lektor](https://github.com/lektor/lektor).
+- I'm passionate about continuous learning.
+- I enjoy solving complex problems and thinking critically about trade-offs.
+- I like understanding *why* something works, not just making it work. That goes double for LLMs.
+- I care about writing structured, observable systems (yes, I like clean logs 😄, and clean traces).
 
 ---
 
-## 📊 GitHub Stats
+## 🌱 Open Source
 
-<div align="center">
+I like contributing to open source in my free time, fixing the bugs I run into upstream instead of working around them.
+If you maintain a project and need a hand with something, feel free to ping me.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/metrics.svg" />
-  <img src="./assets/metrics.svg" alt="GitHub activity and community stats" width="100%" />
-</picture>
+---
 
-</div>
+## 🧩 Beyond Code
+
+When I'm not coding, you'll probably find me:
+
+- 🏋️ At the gym
+- 🌿 Outside recharging
+- 🎮 Gaming
+- 🐱 Spending time with cats
+
+---
 
 ## 🐍 Contribution Graph
 
@@ -133,26 +149,6 @@ Some projects I've had changes merged into:
 </picture>
 
 </div>
-
----
-
-## 🚀 What Drives Me
-
-- I'm passionate about continuous learning.
-- I enjoy solving complex problems and thinking critically about trade-offs.
-- I like understanding *why* something works, not just making it work. That goes double for LLMs.
-- I care about writing structured, observable systems (yes, I like clean logs 😄, and clean traces).
-
----
-
-## 🧩 Beyond Code
-
-When I'm not coding, you'll probably find me:
-
-- 🏋️ At the gym
-- 🌿 Outside recharging
-- 🎮 Gaming
-- 🐱 Spending time with cats
 
 ---
 

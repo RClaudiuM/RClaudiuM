@@ -30,7 +30,7 @@ jobs:
           template: classic
           config_timezone: Europe/Bucharest
           config_display: large
-          base: header, activity, community, metadata
+          base: header, activity, metadata
           config_theme: light
 
       - name: Generate metrics (dark)
@@ -42,5 +42,5 @@ jobs:
           template: classic
           config_timezone: Europe/Bucharest
           config_display: large
-          base: header, activity, community, metadata
+          base: header, activity, metadata
           config_theme: dark
